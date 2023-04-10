@@ -2,8 +2,11 @@
 
 class Third{
 
-    function run_third(){
-        echo '<br><div>Third Class</div><br>';
+    function __construct(){
+    }
+
+    public function run_third(){
+        echo '<div><p>Third Class</p></div>';
     }
 
 }

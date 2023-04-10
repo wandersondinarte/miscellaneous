@@ -2,8 +2,11 @@
 
 class Second{
 
-    function run_second(){
-        echo '<br><div>Second Class</div><br>';
+    function __construct(){
+    }
+
+    public function run_second(){
+        echo '<div><p>Second Class</p></div>';
     }
 
 }

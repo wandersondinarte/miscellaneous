@@ -2,8 +2,11 @@
 
 class First {
 
+    function __construct(){
+    }
+
     function run_first(){
-        echo '<div>First Class</div><br>';
+        echo '<div><p>First Class</p></div>';
     }
 
 }
