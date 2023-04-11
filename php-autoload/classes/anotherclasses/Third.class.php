@@ -1,6 +1,6 @@
 <?php
 
-class Third{
+class Third {
 
     function __construct(){
     }

@@ -17,10 +17,4 @@ echo '<div><h1>PHP autoload class example.</h1></div>';
 $first = new First();
 $first->run_first();
 
-$second = new Second();
-$second->run_second();
-
-$third = new Third();
-$third->run_third();
-
 ?>
