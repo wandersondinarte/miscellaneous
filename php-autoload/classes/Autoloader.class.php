@@ -6,7 +6,6 @@ class Autoloader {
 		
 	public function __construct($diretorio){
 		$this->diretorio = $diretorio;
-		echo '<div><p>Autoloader loaded...</p></di</div>';
 	}
 	
 	public function autoload($class) { 
@@ -26,8 +25,5 @@ class Autoloader {
 	}
 
 }
-
-//spl_autoload_register(array(new Autoloader('classes/'), 'autoload'));
-//spl_autoload_register(array(new Autoloader('../classes/'), 'autoload'));
 
 ?>
