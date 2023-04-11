@@ -15,7 +15,7 @@ class Autoloader {
 		$arquivo = $this->getDiretorio().$class.'.class.php';
 
 		if (file_exists($arquivo)) {
-            include ($arquivo);
+            		include ($arquivo);
 		} else {
             return false;
         }
