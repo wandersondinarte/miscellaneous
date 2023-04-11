@@ -10,8 +10,7 @@
 
     echo '<div><h1>PHP autoload class example.</h1></div>';
 
-
-    //Instância as classes, executa os respectivos métodos.
+    //Instância as classes e executa os respectivos métodos.
     $first = new First();
     $first->run_first();
 
